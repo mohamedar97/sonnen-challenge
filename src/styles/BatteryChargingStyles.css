@@ -1,0 +1,47 @@
+.battery-charging-visualization {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+  color: #666;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.custom-tooltip {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.custom-tooltip .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.custom-tooltip .intro {
+  margin-bottom: 5px;
+}
+
+.custom-tooltip .desc {
+  font-style: italic;
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
